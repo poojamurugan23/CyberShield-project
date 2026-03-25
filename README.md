@@ -1,98 +1,118 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00e5ff&height=250&section=header&text=CHAKRAVYUHA&fontSize=80&fontColor=ffffff&desc=Digital%20Evidence%20Vault&descSize=20&descAlignY=75&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00e5ff&height=250&section=header&text=CHAKRAVYUHA%201.0&fontSize=75&fontColor=ffffff&desc=Real-Time%20Digital%20Evidence%20Preservation&descSize=20&descAlignY=75&animation=fadeIn" />
   
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00e676&center=true&vCenter=true&width=800&lines=The+Digital+Evidence+Vault;Real-time+Cybercrime+Reporting;AI-Powered+Incident+Classification;Cryptographic+Hash-Secured+Ledger" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00e676&center=true&vCenter=true&width=800&lines=24-Hour+Cybersecurity+Hackathon;Integrated+Incident+Response;AI-Assisted+Crime+Investigation;Digital+Evidence+Preservation" alt="Typing SVG" />
   </a>
+
+  <br />
+
+  <img src="https://img.shields.io/badge/Team-Hawkins_Hacker-00e5ff?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/Institution-University_College_of_Engineering,_Kanchipuram-e040fb?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Cyber_Security-ff1744?style=for-the-badge&logo=shield&logoColor=white" />
 </div>
 
-## 🛡️ Ideology & Mission
+<br />
 
-**Chakravyuha** is an elite, real-time cybersecurity evidence portal designed to rapidly bridge the gap between cybercrime victims and investigative officers. Rooted in the concept of *Defense in Depth*, our platform automates the triage of high-priority cyber attacks using **AI Incident Classification**, secures digital forensics through **Immutable SHA-256 Cryptographic Hashes**, and enables instantaneous two-way communication via **WebSocket TCP architectures**.
+## 🚨 Problem Statement & Industry Context
+
+Most people have come across cyber fraud—whether via phishing links, fake applications, or convincing phone calls. A single click can compromise critical personal or financial data. 
+
+**The Challenge:** Victims respond quickly by contacting banks and authorities, but the actual investigation process is highly fragmented. A complaint moves through multiple layers (local police ➔ district authorities ➔ specialized cyber units). 
+
+**The Pain Point:** *During this critical delay, attackers remove traces of their activity and eliminate digital evidence.* By the time technical investigators begin, it is often too late to trace the attacker. Cases remain unresolved due to:
+- **Delay in Evidence Collection:** No immediate mechanism to preserve data at the moment of the attack.
+- **Fragmented Reporting:** Bureaucratic layers delay the response.
+- **Loss of Critical Data:** Attackers easily wipe logs.
+- **No Real-Time Systems:** Victims and specialized investigators are completely disconnected.
 
 ---
 
-## ⚙️ System Architecture
+## 🛡️ Chakravyuha: Our Solution
 
-Our platform operates on a strictly segregated **Role-Based Access Control (RBAC)** architecture to prevent data cross-contamination.
+We engineered a **Real-Time Incident Response & Case Management System** explicitly designed to bridge the gap between victims and Law Enforcement Agencies.
+
+### 🌟 Key Deliverables Achieved in 24 Hours
+✔️ **Immediate Evidence Capture:** Victims can rapidly report cases using **Native WebKit Voice-to-Text**, immediately locking in event details and timestamps. <br>
+✔️ **Tamper-Proof Data Handling:** All uploaded evidence is mathematically secured. <br>
+✔️ **AI-Assisted Investigation:** Native AI automatically summarizes the victim's panic report into a professional **Intelligence Brief** and classifies the domain (Phishing / Financial Fraud / Malware / Data Breach). <br>
+✔️ **Real-Time Alert System:** A robust `Socket.io` powered architecture connects the victim *directly* to an Investigative Officer (IO) for real-time live messaging and emergency interaction. <br>
+
+---
+
+## ⚙️ System Architecture & Dashboard Flow
+
+Our platform operates on a strictly segregated **Role-Based Access Control (RBAC)** model for complete security compliance and data privacy.
 
 <div align="center">
-  <!-- HR & Judge Friendly Placeholder for Architecture / Agent Info image -->
-  <br>
+  <!-- Place your Architecture & Dashboard Images Here -->
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="800">
   <br>
-  <i>(Replace this line with your actual agent/architecture diagram using standard markdown image tags)</i>
+  <i>(Please drag and drop your `Integrated Incident Response Diagram` and `Dashboard Screenshots` here to display them)</i>
   <br><br>
 </div>
 
-1. **Civilian Node (Victims):** Native WebKit Speech-to-Text integration for rapid, hands-free incident reporting.
-2. **Investigator Node:** Real-time socket queues to adopt, manage, and investigate local cybercrimes.
-3. **Master Admin Node:** Global omniscience routing via Dynamic Animated Recharts (Phishing, Financial Fraud, Malware, Data Breach).
+1. **User (Civilian) Node:** Secure Dashboard to instantly Submit Incident Reports, view AI summarizations, and interact directly with assigned officers.
+2. **Investigation Officer (IO) Node:** A real-time queue to receive new case notifications, accept cases, and chat live with the victim to freeze bank accounts or gather logs.
+3. **Admin Node:** Global System Overview with **Animated Recharts** generating live visual analytics of all cases and organizational activity.
 
 ---
 
 ## 💻 Tech Stack Ecosystem
 
-We utilized a modern, high-performance MERN architecture heavily enhanced with real-time bidirectional event protocols.
+We built this high-performance system using a modern, scalable MERN architecture.
 
 <div align="center">
   <br/>
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,github,html,css,js,git,postman&perline=10" />
+    <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,git,github,postman&perline=10" />
   </a>
   <br/>
 </div>
 
-- **Frontend Interface:** React.js, Framer Motion (Micro-animations), Recharts (SVG Data Visualization), Lucide-React
+- **Frontend Interface:** React.js, Framer Motion (Loading Animations), Recharts (Live Analytics DataVis), Web Speech API
 - **Backend Architecture:** Node.js, Express.js, Socket.io (Low-Latency TCP WebSockets)
 - **Database Layer:** MongoDB, Mongoose ORM
-- **Security Protocols:** JSON Web Tokens (JWT), Bcryptjs (Password Hashing), Crypto API (SHA-256), NodeMailer (2FA OTP)
+- **Security Protocols:** JSON Web Tokens (JWT), Bcryptjs (Password Hashing), Crypto API
 
 ---
 
-## 🗄️ Database Schema & Entities
+## 🗄️ Database Schema Mapping
 
-Our NoSQL architecture leverages robust relational mapping across these primary clusters:
-
-- **🔐 Users Collection:** \
-  `{ _id, name, email, password (hashed), role (user/investigator/admin), otp, otpExpires }`
-- **📁 Cases Collection:** \
-  `{ _id, domain, severity, description, userEmail, investigatorEmail, status, evidenceFile, cryptoHash, messages[] }`
+- **🔐 Users Entity:** \
+  `{ _id, name, email, password (hashed), role (user/investigator/admin), otp }`
+- **📁 Cases Entity:** \
+  `{ _id, domain, severity, description, userEmail, investigatorEmail, status, evidenceFile, messages[] }`
 
 ---
 
-## 🚀 Local Installation & Setup
+## 🚀 Local Installation & Setup (For Judges/HR)
 
-Want to run Chakravyuha locally on your machine for testing or contribution? Follow these exact steps.
+Want to run Chakravyuha locally on your machine?
 
 ### 1️⃣ Prerequisites
-Ensure you have the following installed system-wide:
-- [Node.js](https://nodejs.org/) (v16 or higher)
-- [MongoDB](https://www.mongodb.com/) (Local server or Cloud Atlas cluster)
-- Git Bash
+- [Node.js](https://nodejs.org/) (v16+)
+- [MongoDB](https://www.mongodb.com/) (Local server or Cloud Atlas)
+- Git
 
 ### 2️⃣ Clone the Repository
 ```bash
 git clone https://github.com/poojamurugan23/CyberShield-project.git
-cd cybershield-ultra
+cd CyberShield-project
 ```
 
 ### 3️⃣ Security Environment Configuration (`.env`)
-Create a `.env` file perfectly identical to this structure inside your `backend/` directory:
+Create a `.env` file perfectly identical to this inside your `backend/` directory:
 ```env
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/cybershield
 JWT_SECRET=your_super_secret_key_here
-EMAIL_USER=your_gmail_associated_with_nodemailer@gmail.com
-EMAIL_PASS=your_gmail_app_password
-APP_NAME=CyberShield
-TEST_RECEIVER_EMAIL=test_target@gmail.com
 ```
 
 ### 4️⃣ Install Dependencies & Run
 Open **two** separate terminal windows.
 
-**Terminal 1 (Backend Server Initialization):**
+**Terminal 1 (Backend Server):**
 ```bash
 cd backend
 npm install
@@ -105,7 +125,7 @@ cd frontend
 npm install
 npm start
 ```
-The application will securely boot up and default to `http://localhost:3000`.
+The application will boot up at `http://localhost:3000`.
 
 ---
 
@@ -116,59 +136,56 @@ cybershield-ultra/
 │
 ├── frontend/                 # React UI Client
 │   ├── src/
-│   │   ├── components/       # Reusable UI (Navbar, Segregated Sidebar)
-│   │   ├── features/         # Redux Slices & API Handlers
-│   │   ├── pages/            # View Controllers (Dashboards, Evidence Vault)
-│   │   ├── styles/           # CSS & Glassmorphism Tokens
-│   │   └── App.js            # Main Authorized Route Defender
-│   └── package.json
+│   │   ├── components/       # Reusable UI (Navbar, Restricted Sidebar)
+│   │   ├── pages/            # View Dashboards (Civilian, IO, Admin)
+│   │   ├── styles/           # Global CSS & Glassmorphism Logic
+│   │   └── App.js            # Main Route Defender
 │
 └── backend/                  # Node.js REST API & WebSocket Server
-    ├── config/               # DB connections & JWT Auth Configurations
-    ├── controllers/          # Core Business Logic (Auth, Case Management)
-    ├── middleware/           # HTTP JWT Guards & Multer Image Processing
-    ├── models/               # MongoDB Mongoose Strict Schemas
-    ├── routes/               # Express Endpoint Controller Definitions
-    ├── services/             # AI, Email Transport, OTP & Blockchain Engines
-    ├── sockets/              # Socket.io TCP Active Handlers
-    ├── server.js             # Core Application Initialization Loop
-    └── package.json
+    ├── controllers/          # Business Logic (Auth, Case Management)
+    ├── middleware/           # HTTP JWT Guards & Image Processing
+    ├── models/               # MongoDB Strict Schemas
+    ├── routes/               # Express Endpoint Controllers
+    ├── sockets/              # Socket.io TCP Handlers
+    └── server.js             # Core Initialization
 ```
 
 ---
 
-## 👨‍💻 Meet the Masterminds
+## 👨‍💻 Team Hawkins Hacker
+
+*University College of Engineering, Kanchipuram*
 
 <div align="center">
-  <table align="center">
-    <tr align="center">
-      <td>
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Pooja&backgroundColor=00e5ff" width="100px;" alt=""/>
+  <table align="center" style="text-align: center; border: none;">
+    <tr>
+      <td width="25%">
+        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Kiruthigaa&backgroundColor=00e5ff" width="100px;" alt=""/>
         <br />
-        <b>Pooja</b>
+        <b>Kiruthigaa Rajkumar</b>
         <br />
-        <i>System Architecture Design & Integration</i>
+        <i>System Security Implementation & Core Logic</i>
       </td>
-      <td>
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Frontend&backgroundColor=e040fb" width="100px;" alt=""/>
+      <td width="25%">
+        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Pooja&backgroundColor=e040fb" width="100px;" alt=""/>
         <br />
-        <b>[Team Member 2]</b>
+        <b>Pooja Murugan</b>
         <br />
-        <i>Frontend & Graphic UI/UX</i>
+        <i>UI/UX Design & User Interaction Experience</i>
       </td>
-      <td>
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Backend&backgroundColor=00e676" width="100px;" alt=""/>
+      <td width="25%">
+        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Pavithra&backgroundColor=00e676" width="100px;" alt=""/>
         <br />
-        <b>[Team Member 3]</b>
+        <b>Pavithra Balamurugan</b>
         <br />
-        <i>Backend Routing & Cryptographic Security</i>
+        <i>Research Analysis & Technical Documentation</i>
       </td>
-       <td>
-        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=AI&backgroundColor=ff1744" width="100px;" alt=""/>
+      <td width="25%">
+        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Archana&backgroundColor=ff1744" width="100px;" alt=""/>
         <br />
-        <b>[Team Member 4]</b>
+        <b>Archana Muruganantham</b>
         <br />
-        <i>AI & Database Handling</i>
+        <i>Overall System Architecture Design & Integration</i>
       </td>
     </tr>
   </table>
@@ -177,5 +194,5 @@ cybershield-ultra/
 <div align="center">
   <br>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="800">
-  <p><i>Building a safer digital frontier, one cryptographic hash at a time.</i></p>
+  <p><i>Developed with ❤️ for the 24-Hour Cyber Security Hackathon</i></p>
 </div>
