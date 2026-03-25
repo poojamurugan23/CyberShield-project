@@ -1,198 +1,218 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00e5ff&height=250&section=header&text=CHAKRAVYUHA%201.0&fontSize=75&fontColor=ffffff&desc=Real-Time%20Digital%20Evidence%20Preservation&descSize=20&descAlignY=75&animation=fadeIn" />
-  
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00e676&center=true&vCenter=true&width=800&lines=24-Hour+Cybersecurity+Hackathon;Integrated+Incident+Response;AI-Assisted+Crime+Investigation;Digital+Evidence+Preservation" alt="Typing SVG" />
-  </a>
 
-  <br />
+# 🛡️ CHAKRAVYUHA 1.0: Real-Time Digital Evidence Vault
+### *24-Hour Hackathon (Cyber Security domain)*
 
-  <img src="https://img.shields.io/badge/Team-Hawkins_Hacker-00e5ff?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/Institution-University_College_of_Engineering,_Kanchipuram-e040fb?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Cyber_Security-ff1744?style=for-the-badge&logo=shield&logoColor=white" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF99&center=true&vCenter=true&width=800&lines=Real-Time+Digital+Evidence+Preservation;AI-Powered+Incident+Classification;Cryptographic+Hash-Secured+Ledger;Integrated+Incident+Response" alt="Typing SVG" />
+
+[![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#)
+[![NodeJS](https://img.shields.io/badge/Backend-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
+[![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](#)
+[![Socket.io](https://img.shields.io/badge/RealTime-Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)](#)
+
+*Empowering Law Enforcement with Instant, Tamper-Proof Digital Evidence.*
+
 </div>
 
-<br />
+<br/>
 
-## 🚨 Problem Statement & Industry Context
+## 🚨 Problem Statement: Real-Time Digital Evidence Preservation
+**Client:** Cybercrime Investigation Unit/Law Enforcement Agencies - Hypothetical Deployment
 
-Most people have come across cyber fraud—whether via phishing links, fake applications, or convincing phone calls. A single click can compromise critical personal or financial data. 
+### Background & Scenario
+Most people have either experienced or come across cyber fraud in some form—whether it is a phishing link, a fake application, or a phone call that convincingly imitates a trusted source. In many cases, it only takes a single action for an attack to succeed. The realization that personal or financial data has been compromised often comes suddenly and can be overwhelming.
 
-**The Challenge:** Victims respond quickly by contacting banks and authorities, but the actual investigation process is highly fragmented. A complaint moves through multiple layers (local police ➔ district authorities ➔ specialized cyber units). 
+Typically, victims respond quickly. They contact their bank to block transactions, report the issue to authorities, and file a formal complaint. At this stage, it appears that the system is responding as expected. However, the actual situation behind the scenes is far more complex:
 
-**The Pain Point:** *During this critical delay, attackers remove traces of their activity and eliminate digital evidence.* By the time technical investigators begin, it is often too late to trace the attacker. Cases remain unresolved due to:
-- **Delay in Evidence Collection:** No immediate mechanism to preserve data at the moment of the attack.
-- **Fragmented Reporting:** Bureaucratic layers delay the response.
-- **Loss of Critical Data:** Attackers easily wipe logs.
-- **No Real-Time Systems:** Victims and specialized investigators are completely disconnected.
+> **When a cybercrime incident occurs, there is a critical delay between the time of attack and the start of a formal investigation.** During this window, attackers can access compromised systems, remove traces of their activity, and eliminate valuable digital evidence. The victim's complaint typically moves through multiple layers—from local police stations to district authorities and then to specialized cybercrime units. This process often takes several days before any technical investigation begins. By the time investigators access the affected system, most of the crucial evidence has already been erased, making it extremely difficult to trace the attacker or reconstruct the incident.
+
+### ⚠️ Key Pain Points
+- **Delay in Evidence Collection:** There is no mechanism to immediately capture and preserve digital evidence at the moment a cybercrime is detected or reported.
+- **Loss of Critical Data:** Attackers often delete logs, clear histories, and remove traces of their activities, leaving little to no evidence for investigators.
+- **Fragmented Reporting Process:** Complaints pass through multiple administrative levels before reaching cybercrime specialists, causing significant delays.
+- **Lack of Real-Time Response Systems:** There is no integrated system that connects victims directly to investigators in real time.
+- **Ineffective Investigation Outcomes:** Due to missing or incomplete evidence, many cases remain unresolved despite proper reporting procedures being followed.
+
+### 🛑 Real-World Complications
+- **Coordination Challenges:** Multiple agencies are involved in the process, and coordination between them is often slow and inefficient. 
+- **User Awareness:** Victims may not know how to preserve evidence or may unknowingly alter or delete important data.
+- **Legal and Privacy Constraints:** Any system must ensure that user data is handled securely and complies with legal standards.
+- **Technology Limitations:** Devices may vary widely in terms of operating systems, configurations, and security capabilities, making standardization difficult.
 
 ---
 
-## 🛡️ Chakravyuha: Our Solution
+## 💡 Our Ideology & Solution
+We engineered **Chakravyuha** to bridge this exact gap. It replaces slow, fragmented reporting with a strictly permissioned system that acts as an instant bridge, preserving evidence before it vanishes. 
 
-We engineered a **Real-Time Incident Response & Case Management System** explicitly designed to bridge the gap between victims and Law Enforcement Agencies.
+### Expected Deliverables (Achieved within 24 Hours)
+- **System Architecture Document:** Designed a solution that enables instant capture and secure storage of digital evidence at the time of incident mapping data flow and integration logic.
+- **Working Prototype:** Demonstrated a MERN system that can capture key evidence in real time and securely store it for investigation.
+- **Evidence Capture Mechanism:** Implemented features such as automatic log collection, activity tracking, and timestamping via native Audio APIs to ensure data integrity.
+- **Alert & Reporting System:** Provided a streamlined dashboard for victims to report incidents instantly, with automated forward routing to relevant authorities.
+- **Security & Integrity Measures:** Ensured that captured data is tamper-proof, employing SHA-256 validation for legal investigation standards.
+- **Scalability Report:** Modular component system engineered to isolate domain clusters concurrently.
+- **Privacy Mechanism:** Incorporated safeguards to ensure user consent via Role-Based Access Controls (RBAC).
 
-### 🌟 Key Deliverables Achieved in 24 Hours
-✔️ **Immediate Evidence Capture:** Victims can rapidly report cases using **Native WebKit Voice-to-Text**, immediately locking in event details and timestamps. <br>
-✔️ **Tamper-Proof Data Handling:** All uploaded evidence is mathematically secured. <br>
-✔️ **AI-Assisted Investigation:** Native AI automatically summarizes the victim's panic report into a professional **Intelligence Brief** and classifies the domain (Phishing / Financial Fraud / Malware / Data Breach). <br>
-✔️ **Real-Time Alert System:** A robust `Socket.io` powered architecture connects the victim *directly* to an Investigative Officer (IO) for real-time live messaging and emergency interaction. <br>
+### 🔥 Bonus Challenges Addressed
+✔️ **Automated Incident Triggering:** AI handles domain sorting automatically mapping to Phishing/Fraud/Malware without officer intervention. <br/>
+✔️ **Blockchain-Based Evidence Storage:** `SHA-256` hashing enforces immutability and traceability of captured evidence. <br/>
+✔️ **Cross-Platform Synchronization:** PWA-ready responsive dashboard adapting across multiple devices. <br/>
+✔️ **AI-Assisted Investigation Support:** Generates intelligent case briefs automatically saving investigator read-time. <br/>
+✔️ **User Guidance System:** Interactive dashboards guide victims during emergency report logging explicitly. <br/>
 
 ---
 
-## ⚙️ System Architecture & Dashboard Flow
+## 🏛️ System Architecture
 
-Our platform operates on a strictly segregated **Role-Based Access Control (RBAC)** model for complete security compliance and data privacy.
+Our MERN stack architecture operates on a highly optimized pipeline designed for instant triggering with zero persistence of vulnerable cross-role data.
+
+```mermaid
+graph TD
+    classDef victim fill:#5A67D8,stroke:#4C51BF,stroke-width:2px,color:#fff;
+    classDef officer fill:#2C7A7B,stroke:#285E61,stroke-width:2px,color:#fff;
+    classDef admin fill:#B7791F,stroke:#975A16,stroke-width:2px,color:#fff;
+    classDef db fill:#4A5568,stroke:#2D3748,stroke-width:2px,color:#fff;
+    classDef system fill:#822727,stroke:#63171B,stroke-width:2px,color:#fff;
+
+    A[ Civilian Node <br/> Submits Attack via Web/Voice ]:::victim
+    B[ AI Processing Engine <br/> Summarizes & Classifies Domain ]:::system
+    C[ Permanent Evidence Vault <br/> SHA-256 hashed CSV / Images ]:::db
+    
+    A -->|Live Socket.io Alert| D
+    A --> B
+    B --> C
+    
+    D[ Investigator Node <br/> Receives Alert & Claims Case ]:::officer
+    D -->|Real-Time 2-Way Chat| A
+    D -->|Views Evidence| C
+
+    E[ Master Admin Node <br/> Recharts Domain Analytics ]:::admin
+    C -->|Global Read| E
+```
 
 <div align="center">
-  <!-- Place your Architecture & Dashboard Images Here -->
+  <br/>
+  <i>(Our Live Dashboard Infrastructure)</i><br/>
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="800">
   <br>
-  <i>(Please drag and drop your `Integrated Incident Response Diagram` and `Dashboard Screenshots` here to display them)</i>
+  <i>-> [Insert your assigned Dashboard Screenshot Image Here] <-</i>
   <br><br>
 </div>
 
-1. **User (Civilian) Node:** Secure Dashboard to instantly Submit Incident Reports, view AI summarizations, and interact directly with assigned officers.
-2. **Investigation Officer (IO) Node:** A real-time queue to receive new case notifications, accept cases, and chat live with the victim to freeze bank accounts or gather logs.
-3. **Admin Node:** Global System Overview with **Animated Recharts** generating live visual analytics of all cases and organizational activity.
+---
+
+## 🗄️ Database Connection Schema 
+The backend connects to MongoDB mimicking the strict structure of a high-security vault. Collections include:
+- **`Users`**: Encrypted demographics, `bcrypt` hashed passwords, and 2FA OTP tokens.
+- **`Incidents`**: Stores triggers, AI domains, severity flags, timestamps, and active `Socket.io` message arrays.
+- **`CryptoHashes`**: Append-only SHA-256 signatures of evidence items directly tied to the victim's incident report protecting chain of custody.
 
 ---
 
-## 💻 Tech Stack Ecosystem
-
-We built this high-performance system using a modern, scalable MERN architecture.
-
-<div align="center">
-  <br/>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,js,html,css,git,github,postman&perline=10" />
-  </a>
-  <br/>
-</div>
-
-- **Frontend Interface:** React.js, Framer Motion (Loading Animations), Recharts (Live Analytics DataVis), Web Speech API
-- **Backend Architecture:** Node.js, Express.js, Socket.io (Low-Latency TCP WebSockets)
-- **Database Layer:** MongoDB, Mongoose ORM
-- **Security Protocols:** JSON Web Tokens (JWT), Bcryptjs (Password Hashing), Crypto API
+## 📊 Technical Constraints & Compliance Matrix
+| Constraint | Requirement | Status |
+|------------|-------------|--------|
+| **Response Time** | Immediate evidence capture (within seconds to minutes) | ✅ Handled via WebSockets |
+| **Deployment** | Lightweight tool (web-based application) | ✅ React SPA |
+| **Data Handling** | Secure storage with tamper-proof mechanisms | ✅ SHA-256 Hashing |
+| **Integration** | Compatibility with law enforcement systems | ✅ IO Dashboards |
+| **Scalability** | Capable of handling large volumes of incident reports | ✅ MongoDB backend |
+| **Privacy** | Must protect user data and comply with legal frameworks | ✅ Strict RBAC tokens |
+| **Accessibility**| Easy to use for non-technical users | ✅ Web Speech mic integration |
+| **Platform** | Cross-platform (mobile + desktop) | ✅ Responsive CSS Glassmorphism |
 
 ---
 
-## 🗄️ Database Schema Mapping
+## 🛠️ Setup & Local Deployment
 
-- **🔐 Users Entity:** \
-  `{ _id, name, email, password (hashed), role (user/investigator/admin), otp }`
-- **📁 Cases Entity:** \
-  `{ _id, domain, severity, description, userEmail, investigatorEmail, status, evidenceFile, messages[] }`
+Get the platform up and running on your local machine instantly:
 
----
-
-## 🚀 Local Installation & Setup (For Judges/HR)
-
-Want to run Chakravyuha locally on your machine?
-
-### 1️⃣ Prerequisites
-- [Node.js](https://nodejs.org/) (v16+)
-- [MongoDB](https://www.mongodb.com/) (Local server or Cloud Atlas)
-- Git
-
-### 2️⃣ Clone the Repository
 ```bash
+# 1. Clone the repository
 git clone https://github.com/poojamurugan23/CyberShield-project.git
 cd CyberShield-project
-```
 
-### 3️⃣ Security Environment Configuration (`.env`)
-Create a `.env` file perfectly identical to this inside your `backend/` directory:
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/cybershield
-JWT_SECRET=your_super_secret_key_here
-```
+# 2. Build Environment Variables (Backend)
+# Create a .env file inside /backend with your configurations
+# PORT=5000
+# MONGO_URI=mongodb://127.0.0.1:27017/cybershield
+# JWT_SECRET=super_secret_key
 
-### 4️⃣ Install Dependencies & Run
-Open **two** separate terminal windows.
-
-**Terminal 1 (Backend Server):**
-```bash
+# 3. Boot the API Server
 cd backend
 npm install
 npm start
-```
 
-**Terminal 2 (Frontend React Client):**
-```bash
-cd frontend
+# 4. Boot the React Frontend
+cd ../frontend
 npm install
 npm start
+# (The interface triggers on http://localhost:3000)
 ```
-The application will boot up at `http://localhost:3000`.
 
----
-
-## 📂 Project Directory Structure
-
+### 📂 Folder Structure
 ```bash
-cybershield-ultra/
-│
-├── frontend/                 # React UI Client
+CyberShield-Project/
+├── frontend/           # 💻 React User Interface
 │   ├── src/
-│   │   ├── components/       # Reusable UI (Navbar, Restricted Sidebar)
-│   │   ├── pages/            # View Dashboards (Civilian, IO, Admin)
-│   │   ├── styles/           # Global CSS & Glassmorphism Logic
-│   │   └── App.js            # Main Route Defender
-│
-└── backend/                  # Node.js REST API & WebSocket Server
-    ├── controllers/          # Business Logic (Auth, Case Management)
-    ├── middleware/           # HTTP JWT Guards & Image Processing
-    ├── models/               # MongoDB Strict Schemas
-    ├── routes/               # Express Endpoint Controllers
-    ├── sockets/              # Socket.io TCP Handlers
-    └── server.js             # Core Initialization
+│   │   ├── components/ # 🧩 Reusable glassmorphic UI elements
+│   │   ├── pages/      # 🖥️ Segregated Civilian, IO, Admin Dashboards
+│   │   ├── styles/     # 🎨 Aesthetic neon cyber global CSS
+│   │   └── App.js      # 🛡️ Main routing authorization
+├── backend/            # ⚙️ Node.js REST API & WebSocket Server
+│   ├── controllers/    # 🧠 Core logic (Cases, Auth routing)
+│   ├── middleware/     # 🔐 JWT decoders & File parsers
+│   ├── models/         # 🗄️ Mongoose strictly typed schemas
+│   ├── sockets/        # 🔌 Real-time TCP push handlers
+│   └── server.js       # 🚀 Master application loop
 ```
 
 ---
 
-## 👨‍💻 Team Hawkins Hacker
-
-*University College of Engineering, Kanchipuram*
-
 <div align="center">
-  <table align="center" style="text-align: center; border: none;">
-    <tr>
-      <td width="25%">
-        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Kiruthigaa&backgroundColor=00e5ff" width="100px;" alt=""/>
-        <br />
-        <b>Kiruthigaa Rajkumar</b>
-        <br />
-        <i>System Security Implementation & Core Logic</i>
-      </td>
-      <td width="25%">
-        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Pooja&backgroundColor=e040fb" width="100px;" alt=""/>
-        <br />
-        <b>Pooja Murugan</b>
-        <br />
-        <i>UI/UX Design & User Interaction Experience</i>
-      </td>
-      <td width="25%">
-        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Pavithra&backgroundColor=00e676" width="100px;" alt=""/>
-        <br />
-        <b>Pavithra Balamurugan</b>
-        <br />
-        <i>Research Analysis & Technical Documentation</i>
-      </td>
-      <td width="25%">
-        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Archana&backgroundColor=ff1744" width="100px;" alt=""/>
-        <br />
-        <b>Archana Muruganantham</b>
-        <br />
-        <i>Overall System Architecture Design & Integration</i>
-      </td>
-    </tr>
-  </table>
-</div>
 
-<div align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="800">
-  <p><i>Developed with ❤️ for the 24-Hour Cyber Security Hackathon</i></p>
+## 👥 Hackathon Squad: Hawkins Hacker
+**University College of Engineering, Kanchipuram**
+
+<br/>
+
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td align="center">
+      <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="60" alt="Security"/>
+    </td>
+    <td>
+      <b>Kiruthigaa Rajkumar</b><br/>
+      <i>Handles System Security Implementation and Core Logic Development</i>
+    </td>
+    <td align="center">
+      <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="60" alt="UI/UX"/>
+    </td>
+    <td>
+      <b>Pooja Murugan</b><br/>
+      <i>Handles UI/UX Design and User Interaction Experience</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://media.giphy.com/media/qgQUggCGvnkNC/giphy.gif" width="60" alt="Research"/>
+    </td>
+    <td>
+      <b>Pavithra Balamurugan</b><br/>
+      <i>Handles Research Analysis and Technical Documentation</i>
+    </td>
+    <td align="center">
+      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="60" alt="Architecture"/>
+    </td>
+    <td>
+      <b>Archana Muruganantham</b><br/>
+      <i>Handles Overall System Architecture Design and Integration</i>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=2000&color=F7FAFC&center=true&vCenter=true&width=500&lines=Forged+during+CHAKRAVYUHA+1.0;24+Hours+of+Relentless+Coding;Protecting+the+Digital+Frontier" alt="Footer Typing SVG" />
+
 </div>
