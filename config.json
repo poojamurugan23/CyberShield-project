@@ -1,0 +1,18 @@
+{
+    "collection_interval_sec": 12,
+    "log_rotation_minutes": 30,
+    "connection_threshold": 500,
+    "suspicious_process_threshold": 3,
+    "suspicious_processes": [
+        "mimikatz",
+        "lazagne",
+        "keylogger",
+        "nmap",
+        "wireshark",
+        "metasploit",
+        "hydra",
+        "john",
+        "hashcat",
+        "netcat"
+    ]
+}
