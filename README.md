@@ -207,19 +207,156 @@ graph TB
 
 ## 📁 Folder Structure
 ```bash
-Chakravyuha/
-├── frontend/           # 💻 React User Interface
+cybershield/
+│
+├── backend/                              # 🔐 SERVER SIDE (Node + Express)
+│   │
+│   ├── server.js                         # Main entry point
+│   ├── app.js                            # Express app config
+│   │
+│   ├── config/                           # ⚙️ Configurations
+│   │   ├── db.js                         # MongoDB connection
+│   │   ├── jwt.js                        # JWT secret config
+│   │   └── blockchain.js                 # Blockchain connection (API / simulation)
+│   │
+│   ├── models/                           # 📦 Database Models
+│   │   ├── User.js                       # User schema (with OTP, role)
+│   │   ├── Case.js                       # Cyber case schema
+│   │   ├── Notification.js               # Notifications schema
+│   │   └── AuditLog.js                   # Security logs (keystrokes, actions)
+│   │
+│   ├── controllers/                      # 🧠 Business Logic
+│   │   ├── authController.js             # Login + OTP verification
+│   │   ├── caseController.js             # Case submission logic
+│   │   ├── aiController.js               # AI classification & summary
+│   │   ├── blockchainController.js       # Hash generation + verification
+│   │   └── notificationController.js     # Notification handling
+│   │
+│   ├── routes/                           # 🔗 API Routes
+│   │   ├── authRoutes.js                 # /login /verify-otp
+│   │   ├── caseRoutes.js                 # /report /cases
+│   │   ├── aiRoutes.js                   # /classify /scan-url
+│   │   ├── blockchainRoutes.js           # /hash /verify
+│   │   └── notificationRoutes.js         # /notifications
+│   │
+│   ├── middleware/                       # 🛡️ Security Layer
+│   │   ├── authMiddleware.js             # JWT verification
+│   │   ├── roleMiddleware.js             # Role-based access
+│   │   ├── rateLimiter.js                # Prevent brute force
+│   │   └── loggerMiddleware.js           # Activity logging
+│   │
+│   ├── services/                         # 🔧 Core Services
+│   │   ├── otpService.js                 # OTP generation & expiry
+│   │   ├── emailService.js               # Send OTP/email alerts
+│   │   ├── aiService.js                  # AI logic
+│   │   └── blockchainService.js          # Blockchain integration
+│   │
+│   ├── utils/                            # 🧰 Helper functions
+│   │   ├── hashGenerator.js              # SHA256 hashing
+│   │   ├── formatter.js                  # Data formatting
+│   │   └── constants.js                  # App constants
+│   │
+│   ├── sockets/                          # 🔔 Real-time system
+│   │   └── notificationSocket.js         # Socket.io for live alerts
+│   │
+│   ├── uploads/                          # 📂 Evidence files
+│   │
+│   └── package.json
+│
+│
+├── frontend/                             # 🌐 CLIENT SIDE (React)
+│   │
+│   ├── public/
+│   │   ├── index.html                    # Root HTML
+│   │   ├── favicon.ico
+│   │   └── assets/                       # Images, icons
+│   │
 │   ├── src/
-│   │   ├── components/ # 🧩 Reusable glassmorphic UI elements
-│   │   ├── pages/      # 🖥️ Segregated Civilian, IO, Admin Dashboards
-│   │   ├── styles/     # 🎨 Aesthetic neon cyber global CSS
-│   │   └── App.js      # 🛡️ Main routing authorization
-├── backend/            # ⚙️ Node.js REST API & WebSocket Server
-│   ├── controllers/    # 🧠 Core logic (Cases, Auth routing)
-│   ├── middleware/     # 🔐 JWT decoders & File parsers
-│   ├── models/         # 🗄️ Mongoose strictly typed schemas
-│   ├── sockets/        # 🔌 Real-time TCP push handlers
-│   └── server.js       # 🚀 Master application loop
+│   │   │
+│   │   ├── App.js                        # Main app (routing + layout)
+│   │   ├── index.js                      # React entry
+│   │   │
+│   │   ├── pages/                        # 📄 ALL PAGES
+│   │   │   ├── LandingPage.jsx           # Home page
+│   │   │   ├── LoginPage.jsx             # Login
+│   │   │   ├── OTPPage.jsx               # 2FA verification
+│   │   │   ├── SignupPage.jsx            # Registration
+│   │   │   ├── UserDashboard.jsx         # User main dashboard
+│   │   │   ├── AttackReportPage.jsx      # Report cyber attack
+│   │   │   ├── AIProcessingPage.jsx      # AI animation + result
+│   │   │   ├── InvestigatorDashboard.jsx # Investigator panel
+│   │   │   ├── AdminDashboard.jsx        # Super admin panel
+│   │   │   └── ProfilePage.jsx           # User profile/settings
+│   │   │
+│   │   ├── components/                   # 🧩 Reusable UI
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── GlassCard.jsx             # Glass UI container
+│   │   │   ├── Button.jsx
+│   │   │   ├── InputField.jsx
+│   │   │   ├── CaseCard.jsx
+│   │   │   ├── NotificationItem.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   └── Modal.jsx
+│   │   │
+│   │   ├── features/                     # 🚀 Core Features
+│   │   │   ├── auth/                     # Authentication
+│   │   │   │   ├── authSlice.js
+│   │   │   │   └── authAPI.js
+│   │   │   │
+│   │   │   ├── cases/                    # Case management
+│   │   │   │   ├── caseSlice.js
+│   │   │   │   └── caseAPI.js
+│   │   │   │
+│   │   │   ├── notifications/            # Notification system
+│   │   │   │   ├── notificationSlice.js
+│   │   │   │   └── socketClient.js
+│   │   │   │
+│   │   │   ├── ai/                       # AI features
+│   │   │   │   └── aiAPI.js
+│   │   │   │
+│   │   │   └── blockchain/               # Blockchain
+│   │   │       └── blockchainAPI.js
+│   │   │
+│   │   ├── hooks/                        # ⚡ Custom hooks
+│   │   │   ├── useAuth.js
+│   │   │   ├── useSocket.js
+│   │   │   └── useNotifications.js
+│   │   │
+│   │   ├── styles/                       # 🎨 UI styles
+│   │   │   ├── globals.css               # Global styles
+│   │   │   ├── glass.css                 # Glassmorphism
+│   │   │   └── animations.css            # Animations
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── api.js                    # Axios config
+│   │   │   ├── helpers.js
+│   │   │   └── constants.js
+│   │   │
+│   │   └── assets/
+│   │       ├── icons/
+│   │       ├── images/
+│   │       └── animations/
+│   │
+│   └── package.json
+│
+│
+├── docs/                                 # 📘 Documentation
+│   ├── architecture.md                   # System design
+│   ├── api-docs.md                       # API documentation
+│   ├── user-guide.md                     # User manual
+│   └── ppt/                              # Presentation slides
+│
+│
+├── scripts/                              # ⚙️ Utility scripts
+│   ├── seedDatabase.js
+│   └── testAPI.js
+│
+│
+├── .env                                  # Environment variables
+├── .gitignore
+├── README.md                             # Project overview
+└── LICENSE
 ```
 
 ---
